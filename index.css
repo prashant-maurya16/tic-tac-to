@@ -1,0 +1,131 @@
+*{
+          margin: 0;
+          padding: 0;
+
+}
+body{
+         background-color: 
+         #F5CCA0;
+         text-align: center;
+
+         
+
+       
+}
+h1{
+          margin-bottom: 2px;
+          margin-top: 5px;
+}
+.container
+{
+          height: 65vh;
+          display: flex;
+      
+          align-items: center;
+          justify-content: center;
+        
+}
+
+
+.game{
+          height:50vmin ;
+          width: 60vmin;
+          display: flex;
+          flex-wrap: wrap;
+        align-items: center;
+          justify-content: center;
+          gap: 1.5vmin;
+          
+       
+}
+.box
+{
+          height: 18vmin;
+          width: 18vmin;
+          border-radius: 1rem;
+          border: none;
+          font-size: 9vmin;
+         color:white;
+          font: bold;
+        
+     
+
+}
+.box:hover{
+          color: black;
+}
+button
+{
+background-color: grey;
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+       
+
+
+}
+button:hover {
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.25);
+}
+
+
+#again{
+          background-color:black;
+          padding: 5.5px;
+          border-radius: 0.5rem;
+          font-size: medium;
+          justify-content:right;
+          box-shadow: none;
+          margin-left: 650px;
+
+          color:aqua ;
+          border: none;
+          margin-bottom: 10px;
+          
+          
+}
+#again:hover{
+          background-color: aqua;
+          color: black;
+}
+#msg{
+          color: red;
+          font-size: 2.5rem;
+margin-top: 10px;
+}
+#newgame{
+          background-color:black;
+          padding: 5.5px;
+          border-radius: 0.5rem;
+          font-size: large;
+          justify-content:flex-end;
+          box-shadow: none;
+          align-items: flex-end;
+          color:aqua ;
+          border: none;
+          margin-top: 8px;
+}
+#newgame:hover{
+          background-color: aqua;
+          color: black;
+}  
+.msg-box{
+          height: 100vmin;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap:2rem;
+}
+.hide{
+          display:none ;
+}
+.over{
+          background-color: red;
+          color: yellow;
+          font-size: 3.5rem;  
+          border: 1px solid black;
+         
+         
+}
+.hide1{
+          display: none;
+}
